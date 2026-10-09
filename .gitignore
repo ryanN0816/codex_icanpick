@@ -1,0 +1,9 @@
+node_modules/
+dist/
+*.ait
+.granite/
+
+test-results/
+playwright-report/
+
+icanpick.zip
