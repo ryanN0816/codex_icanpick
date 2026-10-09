@@ -42,7 +42,7 @@ PLAYWRIGHT_CHROMIUM_EXECUTABLE_PATH=/usr/bin/chromium npm run test:e2e
 npm run toss:build
 ```
 
-`icanpick.ait`를 생성합니다. `apps-in-toss.config.ts`의 `appName`은 현재 개발용 이름이므로 앱인토스 콘솔에 등록한 실제 앱 이름과 맞춰야 합니다. 브라우저 개발은 `npm run toss:dev`로 실행합니다. 개발용 SDK 도구는 Vite 플러그인에 연결되어 있으며 운영 번들에는 포함되지 않습니다.
+`icanpickforyou.ait`를 생성합니다. `apps-in-toss.config.ts`의 `appName`은 사용자가 전달한 콘솔 등록 식별자 `icanpickforyou`로 설정되어 있습니다. 브라우저 개발은 `npm run toss:dev`로 실행합니다. 개발용 SDK 도구는 Vite 플러그인에 연결되어 있으며 운영 번들에는 포함되지 않습니다.
 
 실제 출시 전 앱인토스 콘솔 등록, 앱 아이콘과 서비스 정보 설정, 정책·디자인 가이드 검토, 토스 앱 내 실기기 테스트, 배포·심사가 필요합니다. 현재 토스 앱 내부 동작과 심사 통과는 검증하지 않았고 배포도 진행하지 않았습니다. 현재 선택 기능은 개인화 추천이 아닌 무작위 추첨입니다. 기록은 브라우저의 localStorage에 저장되므로 기기 간 동기화하지 않습니다.
 
@@ -52,7 +52,7 @@ npm run toss:build
 
 ## AIT 파일 다운로드
 
-[빌드된 icanpick.ait 받기](https://github.com/ryanN0816/codex_icanpick/raw/refs/heads/main/downloads/icanpick.ait)
+[빌드된 icanpickforyou.ait 받기](https://github.com/ryanN0816/codex_icanpick/raw/refs/heads/main/downloads/icanpickforyou.ait)
 
 직접 빌드하려면 Node.js 24 이상을 설치한 PC에서 아래 명령을 실행하세요.
 
@@ -63,4 +63,4 @@ npm ci
 npm run toss:build
 ```
 
-프로젝트 폴더에 `icanpick.ait`가 생성됩니다.
+프로젝트 폴더에 `icanpickforyou.ait`가 생성됩니다.
